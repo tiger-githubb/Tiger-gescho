@@ -6,15 +6,15 @@
   ?>
       <ul class="sidebar navbar-nav">
         <li class="nav-item active">
-          <a onclick="return confirm('Are you sure?')" class="nav-link" href="index.php?Exam=Off">
+          <a onclick="return confirm('Vraiment?')" class="nav-link" href="index.php?Exam=Off">
             <i class="fas fa-fw fa-home"></i>
             <span></span>
           </a>
         </li>
         <li class="nav-item active">
-          <a onclick="return confirm('Are you sure?')" class="nav-link" href="new.php?Exam=Off">
+          <a onclick="return confirm('Vraiment?')" class="nav-link" href="new.php?Exam=Off">
             <i class="fas fa-fw fa-calendar"></i>
-            <span>Set Horaires des examens </span>
+            <span>Definir Horaires des examens </span>
           </a>
         </li>
   <?php }else{ ?>
@@ -29,7 +29,7 @@
         <li class="nav-item active">
           <a class="nav-link" href="new.php">
             <i class="fas fa-fw fa-calendar"></i>
-            <span>Set Horaires des examens </span>
+            <span>Definir Horaires des examens </span>
           </a>
         </li>
         
@@ -47,13 +47,13 @@
         <li class="nav-item active">
           <a class="nav-link" href="new.php?Exam=Off">
             <i class="fas fa-fw fa-calendar"></i>
-            <span>Set Horaires des examens </span>
+            <span>Definir Horaires des examens </span>
           </a>
         </li>
         <li class="nav-item active">
-          <a onclick="return confirm('Are you sure you want to take this exam now, your time will start automatically?')" class="nav-link" href="manageexam.php?Exam=On" id="startQuiz">
+          <a onclick="return confirm('Êtes-vous sûr de vouloir passer cet examen maintenant, votre temps commencera automatiquement?')" class="nav-link" href="manageexam.php?Exam=On" id="startQuiz">
             <i class="fas fa-fw fa-key"></i>
-            <span>Take Exam</span>
+            <span>Passer un examen</span>
           </a>
         </li>
       </ul>

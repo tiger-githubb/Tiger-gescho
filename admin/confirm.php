@@ -8,7 +8,7 @@
 
                 ?>
                 <script type="text/javascript">
-      alert("Schedule Updated Successfully!.");
+      alert("Planifiez avec succès à jour!.");
       window.location = "examsched.php";
     </script>
    

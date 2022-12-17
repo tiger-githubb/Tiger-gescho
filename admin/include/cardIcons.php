@@ -5,7 +5,7 @@
                   <div class="card-body-icon">
                     <i class="fas fa-fw fa-users"></i>
                   </div>
-                  <div class="mr-5">Total of Registered Examinee's</div><?php
+                  <div class="mr-5">Total des examinateurs inscrits</div><?php
                     $query = "SELECT count(*) from student";
                     $result = mysqli_query($db,$query);
                     $row = mysqli_fetch_array($result); 
@@ -13,7 +13,7 @@
                     ?>
                 </div>
                 <a class="card-footer text-white clearfix small z-1" href="examinee.php">
-                  <span class="float-left">View Details</span>
+                  <span class="float-left">Voir les Details</span>
                   <span class="float-right">
                     <i class="fas fa-angle-right"></i>
                   </span>
@@ -26,7 +26,7 @@
                   <div class="card-body-icon">
                     <i class="fas fa-fw fa-calendar"></i>
                   </div>
-                  <div class="mr-5">Total of Confirm Schedule's</div><?php
+                  <div class="mr-5">Total de l'annexe de confirmation</div><?php
                     $query = "SELECT count(*) from exam_schedule WHERE status = 'Confirmed'";
                     $result = mysqli_query($db,$query);
                     $row = mysqli_fetch_array($result); 
@@ -34,7 +34,7 @@
                     ?>
                 </div>
                 <a class="card-footer text-white clearfix small z-1" href="examsched.php">
-                  <span class="float-left">View Details</span>
+                  <span class="float-left">Voir les Details</span>
                   <span class="float-right">
                     <i class="fas fa-angle-right"></i>
                   </span>
@@ -47,7 +47,7 @@
                   <div class="card-body-icon">
                     <i class="fas fa-fw fa-calendar"></i>
                   </div>
-                  <div class="mr-5">Total of Pending Schedule's</div><?php
+                  <div class="mr-5">Total des annexes en attente</div><?php
                     $query = "SELECT count(*) from exam_schedule WHERE status = 'Pending'";
                     $result = mysqli_query($db,$query);
                     $row = mysqli_fetch_array($result); 
@@ -55,7 +55,7 @@
                     ?>
                 </div>
                 <a class="card-footer text-white clearfix small z-1" href="examsched.php">
-                  <span class="float-left">View Details</span>
+                  <span class="float-left">Voir les Details</span>
                   <span class="float-right">
                     <i class="fas fa-angle-right"></i>
                   </span>
@@ -68,7 +68,7 @@
                   <div class="card-body-icon">
                     <i class="fas fa-fw fa-calendar"></i>
                   </div>
-                  <div class="mr-5">Total of Reschedule Schedule's</div><?php
+                  <div class="mr-5">Total des échéances </div><?php
                     $query = "SELECT count(*) from exam_schedule WHERE status = 'Rescheduled'";
                     $result = mysqli_query($db,$query);
                     $row = mysqli_fetch_array($result); 
@@ -76,7 +76,7 @@
                     ?>
                 </div>
                 <a class="card-footer text-white clearfix small z-1" href="examsched.php">
-                  <span class="float-left">View Details</span>
+                  <span class="float-left">Voir les Details</span>
                   <span class="float-right">
                     <i class="fas fa-angle-right"></i>
                   </span>

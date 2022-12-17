@@ -109,7 +109,7 @@ $query = "SELECT s.sched_id,e.fname,e.lname,e.examinee_code,s.dateofexam,s.timeo
                                echo '<td>'. $row['status'].'</td>';
                              }
                                if($row['status']=='Confirmed'){
-                                echo '<td><a type="button" class="btn btn-sm btn-info fas fa-eye" href="#" data-toggle="modal" data-target="#View'.$row['sched_id'].'">View Details</a></td>';
+                                echo '<td><a type="button" class="btn btn-sm btn-info fas fa-eye" href="#" data-toggle="modal" data-target="#View'.$row['sched_id'].'">Voir les Details</a></td>';
                                 ?>
                                 <div id="View<?php echo $row['sched_id'];?>" class="modal fade" role="dialog">
               <div class="modal-dialog">

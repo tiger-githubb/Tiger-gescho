@@ -15,7 +15,7 @@ if(!$_SESSION["fname"]){
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CHMSC IT Admission</title>
+    <title>Tiger GESCHO</title>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@ if(!$_SESSION["fname"]){
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="index.php">CHMSC IT Admission</a>
+      <a class="navbar-brand mr-1" href="index.php">Tiger gescho Admission</a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -60,7 +60,7 @@ if(!$_SESSION["fname"]){
              }
              ?></a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item fas fa-sign-out-alt" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+            <a class="dropdown-item fas fa-sign-out-alt" href="#" data-toggle="modal" data-target="#logoutModal">Deconnexion</a>
           </div>
         </li>
       </ul>

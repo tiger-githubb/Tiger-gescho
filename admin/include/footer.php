@@ -8,7 +8,7 @@
         <footer class="sticky-footer">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright © CHMSC IT Admission 2020</span>
+              <span>Copyright © Aristide Tiger 2022</span>
             </div>
           </div>
         </footer>

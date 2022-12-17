@@ -7,7 +7,7 @@
 <div id="content-wrapper">
 
         <div class="container-fluid">
- <h2>List of Examinee(s)</h2> 
+ <h2>Liste des candidats</h2> 
             <div class="card-body">
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">

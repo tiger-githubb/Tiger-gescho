@@ -3,7 +3,7 @@
             <li class="breadcrumb-item">
               <a href="#">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Overview</li>
+            <li class="breadcrumb-item active">Vue d'ensemble</li>
           </ol>
           <div style="background-image: url('images/download.jpg');">
           	<!-- <img src="images/download.jpg" alt="..." width="100%"> -->
