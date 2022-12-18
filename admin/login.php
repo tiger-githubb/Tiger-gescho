@@ -33,10 +33,10 @@ if(isset($_SESSION["name"])){
    <div class="container">
       <div class="card card-login mx-auto mt-5">
 
-        <div class="card-header bg-warning">Admin Login</div>
+        <div class="card-header bg-warning">Connexion de l'administrateur</div>
         <div class="card-body">
           <center>
-            <h2><i>CHMSC Binalbagan IT Admission</i></h2>
+            <h2><i>Tiger Gescho</i></h2>
           <img src="images/logo.png" alt="..." width="50%">
       </center>
           <form method="POST" action="login1.php">
@@ -50,7 +50,7 @@ if(isset($_SESSION["name"])){
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="pass" required="required">
               </div>
             </div>
-            <button type="submit" class="btn btn-success btn-block">Login</button>
+            <button type="submit" class="btn btn-success btn-block">Connexion</button>
           </form>
         </div>
       </div>

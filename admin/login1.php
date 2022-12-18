@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $Message = "Login Successful!";
   }
   else{
-  $Message = "Login Failed! User not found";
+  $Message = "Échec de la connexion!Utilisateur non trouvé";
   $_SESSION['message']=$Message;
   unset($_SESSION['name']);
   session_destroy();
@@ -60,7 +60,7 @@ function check_input($data) {
     //include "footer.php";
     ?>
 <script type="text/javascript">
-      alert("Login Successfull.");
+      alert("Connexion réussie.");
       window.location = "index.php";
     </script>
 

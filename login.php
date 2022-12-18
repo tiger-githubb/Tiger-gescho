@@ -35,7 +35,7 @@ if(isset($_SESSION["name"])){
         <div class="card-header bg-success">Student Login</div>
         <div class="card-body">
           <center>
-            <h2><i>CHMSC Binalbagan IT Admission</i></h2>
+            <h2><i>Tiger Gescho</i></h2>
       </center>
           <form method="POST" action="login1.php">
             <div class="row">
