@@ -13,12 +13,12 @@
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
-                      <th>Examinee</th>
-                      <th>Examinee ID #</th>
-                      <th>Date Of Exam</th>
-                      <th>Time Of Exam</th>
+                      <th>Inscrit</th>
+                      <th>ID du candidat #</th>
+                      <th>Date d'examen</th>
+                      <th>Temps d'examen</th>
                       <th>Status</th>
-                      <th>Options</th>
+                      <th>options</th>
                     </tr>
                   </thead>
                   
@@ -43,7 +43,7 @@ $query = "SELECT s.sched_id,e.stanine,e.picture,concat(e.fname,' ',e.lname) as '
 
                 <!-- Modal content-->
                 <div class="modal-content" style="width: 130%">
-                  <div class="modal-header"><h3>Examinee</h3>
+                  <div class="modal-header"><h3>candidats</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                   </div>
                   <div class="modal-body">
@@ -56,19 +56,19 @@ $query = "SELECT s.sched_id,e.stanine,e.picture,concat(e.fname,' ',e.lname) as '
                             <div class="form-label-group">
                             <input type="text" id="idnum" class="form-control" placeholder="Name" readonly name="code" value="<?php echo $row['examinee_code']; ?>" autofocus="autofocus" required>
                             <!-- <input type="hidden" id="idnum" class="form-control" name="id" value="<?php //echo $row['emp_id']; ?>" autofocus="autofocus" required> -->
-                            <label for="idnum">Examinee ID#</label>
+                            <label for="idnum">ID du candidat #</label>
                             </div>
                             </div>
                             <div class="form-group">
                             <div class="form-label-group">
                             <input type="text" id="inputName1" class="form-control" placeholder="Name" readonly name="name" value="<?php echo $row['name']; ?>" autofocus="autofocus" required>
-                            <label for="inputName1">Examinee</label>
+                            <label for="inputName1">Inscrit</label>
                             </div>
                             </div>
                             <div class="form-group">
                             <div class="form-label-group">
                             <input type="text" id="inputName2" class="form-control" placeholder="Name" readonly name="staunine" value="<?php echo $row['stanine']; ?>" autofocus="autofocus" required>
-                            <label for="inputName2">Stanine</label>
+                            <label for="inputName2">stanine</label>
                             </div>
                             </div>
                             <!-- <div class="form-group">
@@ -99,7 +99,7 @@ $query = "SELECT s.sched_id,e.stanine,e.picture,concat(e.fname,' ',e.lname) as '
 
                 <!-- Modal content-->
                 <div class="modal-content" style="width: 130%">
-                  <div class="modal-header"><h3>Reschedule</h3>
+                  <div class="modal-header"><h3>Reprogrammer</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                   </div>
                   <div class="modal-body">
@@ -110,26 +110,26 @@ $query = "SELECT s.sched_id,e.stanine,e.picture,concat(e.fname,' ',e.lname) as '
                             <div class="form-label-group">
                             <input type="text" id="idnum" class="form-control" placeholder="Name" readonly name="code" value="<?php echo $row['examinee_code']; ?>" autofocus="autofocus" required>
                             <!-- <input type="hidden" id="idnum" class="form-control" name="id" value="<?php //echo $row['emp_id']; ?>" autofocus="autofocus" required> -->
-                            <label for="idnum">Examinee ID#</label>
+                            <label for="idnum">ID du candidat #</label>
                             </div>
                             </div>
                             <div class="form-group">
                             <div class="form-label-group">
                             <input type="text" id="inputName1" class="form-control" placeholder="Name" readonly name="name" value="<?php echo $row['name']; ?>" autofocus="autofocus" required>
                             <input type="hidden" id="inputName1" class="form-control" name="schedid" value="<?php echo $row['sched_id']; ?>" autofocus="autofocus" required>
-                            <label for="inputName1">Examinee</label>
+                            <label for="inputName1">Inscrit</label>
                             </div>
                             </div>
                             <div class="form-group">
                             <div class="form-label-group">
                             <input type="date" id="inputAge1" class="form-control" placeholder="Age" name="dateofexam" value="<?php echo $row['dateofexam']; ?>" required>
-                            <label for="inputAge1">Date Of Exam</label>
+                            <label for="inputAge1">Date d'examen</label>
                             </div>
                             </div>
                             <div class="form-group">
                             <div class="form-label-group">
                             <input type="time" id="inputAddress1" class="form-control" placeholder="Address" value="<?php echo $row['timeofexam']; ?>" name="timeofexam" required>
-                            <label for="inputAddress1">Time Of Exam</label>
+                            <label for="inputAddress1">Temps d'examen</label>
                             </div>
                             </div>
                             <!-- <div class="form-group">
